@@ -76,11 +76,11 @@ top: 0;
 }
 
 .openNav {
-    -webkit-transform: translate3d(-63%, 0, 0);
-    -moz-transform: translate3d(-63%, 0, 0);
-    -ms-transform: translate3d(-63%, 0, 0);
-    -o-transform: translate3d(-63%, 0, 0);
-    transform: translate3d(-63%, 0, 0);
+    -webkit-transform: translate3d(-150px, 0, 0);
+    -moz-transform: translate3d(-150px, 0, 0);
+    -ms-transform: translate3d(-150px, 0, 0);
+    -o-transform: translate3d(-150px, 0, 0);
+    transform: translate3d(-150px, 0, 0);
     -webkit-transition: -webkit-transform 500ms ease;
     -moz-transition: -moz-transform 500ms ease;
     -o-transition: -o-transform 500ms ease;
@@ -88,7 +88,7 @@ top: 0;
   }
 
 html{
-  -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0);
