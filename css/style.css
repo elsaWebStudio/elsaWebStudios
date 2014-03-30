@@ -95,7 +95,7 @@ nav > .container {
 /*SECTIONS*/
 
 .sectionPadding{
-  padding: 75px 0px;
+  padding-top: 75px;
 }
 
 /*LANDING*/
@@ -159,7 +159,7 @@ nav > .container {
 }
 
 .workImages{
-  height:300px;
+  width:200px;
 }
 /*END WORK*/
 /*END SECTIONS*/
@@ -232,7 +232,7 @@ nav, .shrink, #transparentBackground{
 }
 
 .workImages{
-  height:200px;
+  width:250px;
 }
 
 /*END WORK*/
@@ -331,7 +331,7 @@ font-size: 3em;
 }
 
 .workImages:hover{
-  height:350px;
+  width:350px;
 }
 
 /*END WORK*/
