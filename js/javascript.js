@@ -1,20 +1,20 @@
 //handles the hidden menu for mobile
 $(".menuNav").click(function(){
 
-	var htmlClass = $("html").attr('class');
+	var htmlClass = $("nav").attr('class');
 
 	if (htmlClass != "openNav")
 	  	{
-			$("html").addClass("openNav");
+			$("nav").addClass("openNav");
 		}
 	else
 		{
-			$("html").removeClass("openNav");
+			$("nav").removeClass("openNav");
 		}  
 });
 
 $(".navLink").click(function(){
-	$("html").removeClass("openNav");
+	$("nav").removeClass("openNav");
 });
 
 //scrolling effect for links pointing to sections on loaded page
