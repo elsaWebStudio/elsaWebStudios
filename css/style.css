@@ -33,10 +33,17 @@ nav{
 #transparentBackground{
   width:100%;
   height:75px;
-  background-color:black;
-  opacity: .4;
   position: fixed;
   z-index: -1;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.transparency{
+  background-color:black;
+  opacity: .8;
 }
 
 nav > .container {
@@ -75,7 +82,7 @@ nav > .container {
 }
 
 .menu  > li > a {
-  color:white;
+  color:#828282;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
   text-decoration: none;
   font-size: 30px;
@@ -144,6 +151,7 @@ nav > .container {
 #services > .container > h1 {
   text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
   font-size: 2em;
+  text-align: left;
 }
 
 /*END SERVICES*/
@@ -151,17 +159,36 @@ nav > .container {
 /*WORK*/
 #work{
   text-align: center;
+  color:white;
+  background-color: #828282;
 }
 
 #work > .container > h1 {
   text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
   font-size: 2em;
+  text-align: left;
 }
 
 .workImages{
   width:200px;
 }
+
 /*END WORK*/
+
+/*ABOUT*/
+#about{
+  color:#828282;
+  background-color:#463758;
+}
+
+#about > .container > h1 {
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  font-size: 2em;
+  text-align: left;
+}
+
+
+/*END ABOUT*/
 /*END SECTIONS*/
  
 /* Medium screens (640px) */
@@ -170,7 +197,7 @@ nav > .container {
 /* NAV */
 .menu {
   list-style-type: none;
-  margin-top: 34px;
+  margin-top: 21px;
   visibility: visible;
   left: 0;
   position: relative;
@@ -191,7 +218,7 @@ nav > .container {
 }
 
 nav, .shrink, #transparentBackground{
-  height:100px;
+  height:75px;
 }
 
 .mobileMenu{
@@ -202,7 +229,7 @@ nav, .shrink, #transparentBackground{
   position: relative;
   background-color: transparent;
   width: initial;
-  height:100px;
+  height:75px;
 }
 
 /*END NAV*/
@@ -210,7 +237,7 @@ nav, .shrink, #transparentBackground{
 /*SECTIONS*/
 
 .sectionPadding{
-  padding: 20px 0px;
+  padding-top: 75px;
 }
 
 /*SERVICES*/
@@ -237,6 +264,14 @@ nav, .shrink, #transparentBackground{
 
 /*END WORK*/
 
+/*ABOUT*/
+
+#about > .container > h1 {
+  font-size: 3em;
+}
+
+/*END ABOUT*/
+
 /*END SECTIONS*/
 }
 
@@ -247,7 +282,7 @@ nav, .shrink, #transparentBackground{
 
 .menu {
   list-style-type: none;
-  margin-top: 29px;
+  margin-top: 16px;
   visibility: visible;
   left: 0;
   position: relative;
@@ -263,7 +298,7 @@ nav, .shrink, #transparentBackground{
 }
 
 nav, .shrink, #transparentBackground{
-  height:100px;
+  height:75px;
 }
 
 .mobileMenu{
@@ -274,7 +309,7 @@ nav, .shrink, #transparentBackground{
   position: relative;
   background-color: transparent;
   width: initial;
-  height:100px;
+  height:75px;
 }
 
 /*END NAV*/
@@ -282,12 +317,12 @@ nav, .shrink, #transparentBackground{
 /*SECTIONS*/
   
 .sectionPadding{
-  padding: 100px 0px;
+  padding-top: 100px;
 }
 
 /*LANDING*/
 #landing{
-  height:700px;
+  height:625px;
 }
 
 #landingHeadline{
@@ -335,6 +370,14 @@ font-size: 3em;
 }
 
 /*END WORK*/
+
+/*ABOUT*/
+
+#about > .container > h1 {
+  font-size: 4em;
+}
+
+/*END ABOUT*/
 
 /*END SECTIONS*/
 

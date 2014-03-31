@@ -32,3 +32,18 @@ $(function() {
 		}
 	});
 });
+
+//scroll events
+$(function() {
+    //caches a jQuery object containing the header element
+    var nav = $("#transparentBackground");
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 1) {
+            nav.addClass("transparency");
+        } else {
+            nav.removeClass("transparency");
+        }
+    });
+});
